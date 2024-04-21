@@ -6,11 +6,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Conectar {
-        String dbServer = "204.2.63.32"; 
+        String dbServer = "*******"; 
         int dbPort = 10242; 
-        String dbName = "maingco";
-        String userName = "pipe";
-        String password = "12345678";
+        String dbName = "*****";
+        String userName = "*****";
+        String password = "****";
         String url = String.format("jdbc:mysql://%s:%d?user=%s&password=%s" , 
                                     dbServer, dbPort, userName, password);
     Connection connection = null;
